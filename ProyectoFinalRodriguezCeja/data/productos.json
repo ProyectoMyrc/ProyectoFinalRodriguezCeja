@@ -1,0 +1,22 @@
+[
+  { "id": 1, "nombre": "Cargo 150", "precio": 25000, "cilindrada": "Baja", "uso": "Trabajo", "marca": "Italika", "imagenURL": "img/cargo150.jpg" },
+  { "id": 2, "nombre": "CB 125F Twister", "precio": 32000, "cilindrada": "Baja", "uso": "Trabajo", "marca": "Honda", "imagenURL": "img/cb _125f_twister.png" },
+  { "id": 3, "nombre": "YBR 125", "precio": 35500, "cilindrada": "Baja", "uso": "Trabajo", "marca": "Yamaha", "imagenURL": "img/ybr_125.jpeg" },
+  { "id": 4, "nombre": "Pulsar NS 160", "precio": 45000, "cilindrada": "Baja", "uso": "Trabajo", "marca": "Bajaj", "imagenURL": "img/PulsarNS160.avif" },
+  { "id": 5, "nombre": "DM 150", "precio": 28000, "cilindrada": "Baja", "uso": "Trabajo", "marca": "Italika", "imagenURL": "img/DM_150Italika.jpeg" },
+  { "id": 6, "nombre": "Duke 200 NG", "precio": 75000, "cilindrada": "Alta", "uso": "Trabajo", "marca": "KTM", "imagenURL": "img/Duke_200_NG.png" },
+  { "id": 7, "nombre": "FZ 25", "precio": 85000, "cilindrada": "Alta", "uso": "Trabajo", "marca": "Yamaha", "imagenURL": "img/FZ_25.jpg" },
+  { "id": 8, "nombre": "Gixxer 250", "precio": 79000, "cilindrada": "Alta", "uso": "Trabajo", "marca": "Suzuki", "imagenURL": "img/gixxer-250-abs.png" },
+  { "id": 9, "nombre": "CBF 300", "precio": 95000, "cilindrada": "Alta", "uso": "Trabajo", "marca": "Honda", "imagenURL": "img/CBf_ 300.jpg" },
+  { "id": 10, "nombre": "Vort-X 300", "precio": 55000, "cilindrada": "Alta", "uso": "Trabajo", "marca": "Italika", "imagenURL": "img/italika-vort-x-300.jpeg" },
+  { "id": 11, "nombre": "Vento Urban 2.0", "precio": 38000, "cilindrada": "Baja", "uso": "Recreación", "marca": "Vento", "imagenURL": "img/VentoUrban2.0.webp" },
+  { "id": 12, "nombre": "Pulsar NS 200", "precio": 58000, "cilindrada": "Baja", "uso": "Recreación", "marca": "Bajaj", "imagenURL": "img/Pulsar_NS_200.webp" },
+  { "id": 13, "nombre": "Ninja 300 (usada)", "precio": 89000, "cilindrada": "Baja", "uso": "Recreación", "marca": "Kawasaki", "imagenURL": "img/Ninja300.jpeg" },
+  { "id": 14, "nombre": "Honda CBR 250R", "precio": 70000, "cilindrada": "Baja", "uso": "Recreación", "marca": "Honda", "imagenURL": "img/HondaCBR250R.jpg" },
+  { "id": 15, "nombre": "GTS 175", "precio": 35000, "cilindrada": "Baja", "uso": "Recreación", "marca": "Vento", "imagenURL": "img/GTS_175vento.avif" },
+  { "id": 16, "nombre": "MT-07", "precio": 185000, "cilindrada": "Alta", "uso": "Recreación", "marca": "Yamaha", "imagenURL": "img/MT-07yamaha.jpeg" },
+  { "id": 17, "nombre": "Ninja 400", "precio": 145000, "cilindrada": "Alta", "uso": "Recreación", "marca": "Kawasaki", "imagenURL": "img/Ninja_400.jpeg" },
+  { "id": 18, "nombre": "GS 310 R", "precio": 115000, "cilindrada": "Alta", "uso": "Recreación", "marca": "BMW", "imagenURL": "img/GS_310_R.jpg" },
+  { "id": 19, "nombre": "Duke 390", "precio": 105000, "cilindrada": "Alta", "uso": "Recreación", "marca": "KTM", "imagenURL": "img/Duke390.png" },
+  { "id": 20, "nombre": "Harley-Davidson Iron 883 (usada)", "precio": 250000, "cilindrada": "Alta", "uso": "Recreación", "marca": "Harley-Davidson", "imagenURL": "img/Harley-DavidsonIron883.jpg" }
+]

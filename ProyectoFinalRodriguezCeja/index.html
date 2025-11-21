@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportXpress | Motocicletas</title>
+    
+    <link rel="icon" type="image/png" href="/favicon.png"> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="logo-y-titulo">
+                <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4ZM12 6C10.6193 6 9.5 7.11929 9.5 8.5C9.5 9.88071 10.6193 11 12 11C13.3807 11 14.5 9.88071 14.5 8.5C14.5 7.11929 13.3807 6 12 6ZM12 13C9.10065 13 6.64333 14.3415 5.34008 16.3113C5.10519 16.6669 5.00001 17.0676 5.00001 17.4782C5.00001 18.0673 5.43401 18.5523 6 18.5523H18C18.566 18.5523 19 18.0673 19 17.4782C19 17.0676 18.8948 16.6669 18.6599 16.3113C17.3567 14.3415 14.8993 13 12 13Z" fill="white"/>
+                </svg>
+                <span class="nombre-pagina">SportXpress</span>
+            </div>
+            <nav>
+                <a href="#catalogo-section">Motos</a>
+                <a href="#carrito-section">Carrito</a>
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="catalogo-section">
+            <h2>Catálogo de Motocicletas 🏍️</h2>
+
+            <div class="filtros-y-form-contenedor">
+                <div class="filtros-contenedor">
+                    <select id="filtroCilindrada">
+                        <option value="todos">Cilindrada (Todas)</option>
+                        <option value="Baja">Baja Cilindrada</option>
+                        <option value="Alta">Alta Cilindrada</option>
+                    </select>
+                    
+                    <select id="filtroUso">
+                        <option value="todos">Uso (Todos)</option>
+                        <option value="Trabajo">Trabajo</option>
+                        <option value="Recreación">Recreación</option>
+                    </select>
+                    <button id="resetFiltros" class="btn-secondary">Limpiar Filtros</button>
+                </div>
+                
+                <div class="formulario-contenedor">
+                    <h3>Añadir Motocicleta</h3>
+                    <form id="formProducto">
+                        <input type="text" id="nombreProducto" placeholder="Nombre (Ej: Duke 200)" required>
+                        <input type="number" id="precioProducto" placeholder="Precio ($)" required>
+                        <input type="text" id="imagenProducto" placeholder="Ruta Imagen (Ej: img/moto.webp)">
+                        <button type="submit" class="btn-primary">Añadir al Catálogo</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="catalogo" class="productos-grid"></div>
+        </section>
+
+        <section id="carrito-section">
+            <div class="carrito-header">
+                <h2>
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6ZM5 6H19L20.2 7L19 7.8V19H5V7.8L3.8 7L5 6ZM7 15C7 15.5304 7.21071 16.0391 7.58579 16.4142C7.96086 16.7893 8.46957 17 9 17C9.53043 17 10.0391 16.7893 10.4142 16.4142C10.7893 16.0391 11 15.5304 11 15C11 14.4696 10.7893 13.9609 10.4142 13.5858C10.0391 13.2107 9.53043 13 9 13C8.46957 13 7.96086 13.2107 7.58579 13.5858C7.21071 13.9609 7 14.4696 7 15ZM15 15C15 15.5304 15.2107 16.0391 15.5858 16.4142C15.9609 16.7893 16.4696 17 17 17C17.5304 17 18.0391 16.7893 18.4142 16.4142C18.7893 16.0391 19 15.5304 19 15C19 14.4696 18.7893 13.9609 18.4142 13.5858C18.0391 13.2107 17.5304 13 17 13C16.4696 13 15.9609 13.2107 15.5858 13.5858C15.2107 13.9609 15 14.4696 15 15Z" fill="#F39C12"/>
+                    </svg>
+                    Tu Carrito
+                </h2>
+            </div>
+            <ul id="listaCarrito" class="lista-carrito"></ul>
+            <p class="total-compra" id="total"></p>
+            <button id="finalizarCompra" class="btn-primary">Finalizar Compra</button>
+            <button id="vaciarCarrito" class="btn-secondary">Vaciar Carrito</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SportXpress | Proyecto Final JavaScript</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
